@@ -4,6 +4,43 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: red;
+.header {
+    background-image: url('../images/image1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.navigation {
+    text-align: center;
+    padding: 20px;
+}
+
+.navigation a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 23px;
+}
+
+.banner {
+    color: #fff;
+    margin-left: 640px;
+    padding: 100px 0;
+}
+
+.banner h2 {
+    font-size: 50px;
+    padding: 30px 0 0 0;
+}
+
+.getStartedButton {
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
 }
