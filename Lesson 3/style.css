@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#p1 {
+    color: red;
+}
+
+#p2{ 
+    color: green;
+}
+
+
+
+/* #title1 {
+    color: red;
+}
+
+#title2 {
+    color: red;
+}
+
+#title3 {
+    color: green;
+}
+
+#title4 {
+    color: green;
+} */
+/* 
+.rengiQirmiziOlanlar {
+    color: red;
+}
+
+.rengiYasilOlanlar {
+    color: green;
+}
+
+.rengiBenovseOlanlar {
+    color: purple;
+} */
+
+/**
+    margin
+**/
+.title {
+    /* background-color: black; */
+    color: lime;
+    
+    /* width: 200px; */
+    /* height: 200px; */
+
+    /* margin: 200px auto 300px; */
+    /* margin-left: 100px;
+    margin-top: 60px;
+    margin-right: 100px;
+    margin-bottom: 100px; */
+    /* margin: 100px 200px 300px 400px; */
+    /* top right bottom left*/
+
+    /* margin: 100px 200px 100px; */
+    /* top right-left bottom */
+
+    /* margin: 50px 100px; */
+    /* top-bottom left-right */
+
+    /* margin: 100px; */
+    /* top-bottom-right-left */
+
+    /* padding: 20px; */
+    /* padding-left: 100px; */
+    /*
+        w:200 + 20 + 20
+        h:200 + 20 + 20
+
+    */
+
+    /* border-top: 5px solid red;
+    border-right: 5px solid red;
+    border-bottom: 5px solid red;
+    border-left: 5px solid red; */
+    /* border: 4px dashed red; */
+    background-color: black;
+    /* padding: 20px; */
+    box-sizing: border-box;
+    border: 10px solid green;
+    margin: 30px;
+    padding: 20px;
+
+    width: 300px;
+    height: 300px;
+
+    /* border-radius: 150px; */
+
+}
+
+
+/*
+    daire alinar
+
+
+*/
+
+
+
+
+
+
+
+p {
+    /* color: #fff; */
+    /* margin-top: -200px; */
+    /* margin-left: 200px; */
+    /* background-color: green;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px; */
+    /* display: inline; */
+}
+
+/* a {
+    background-color: red;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 200px;
+    padding: 50px;
+} */
+
+
+/* block vs inline*/
+/*
+    1. block elementi width ve height qebul edir,inline elementler ise yox.
+    2. Padding meselesi.Block elementleri normal olaraq qebul edir,inline elementler ise oz olculerini itirir.
+    3. Inline teqler margin-top margin-bottom qebul etmir.
+*/
+
+
+.ders-info {
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.ana-qutu {
+    width: fit-content;
+    margin: auto;
+}
+
+#qutu4 {
+    display: none;
+}

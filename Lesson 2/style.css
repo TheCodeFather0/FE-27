@@ -1,0 +1,42 @@
+/* biz css-ejdahalariyiq */
+/*
+    hexadecimal -> #000000
+    rgb -> red,green,blue
+    rgba -> red,green,blue,alpha
+*/
+body {
+    /* background-color:#00ffff */
+}
+
+/* default */
+h1 {
+    text-align: center;
+    color: red;
+    text-decoration: underline blue;
+}
+
+h2 {
+    /* color: gray; */
+    /* text-align: center; */
+}
+
+p {
+    /* text-align: right; */
+    text-align: justify;
+}
+
+h3 {
+    color: red;
+    text-align: center;
+}
+
+
+div {
+    /* background-color: red; */
+    background-image: url(https://create.microsoft.com/_next/image?url=https%3A%2F%2Fdsgrcdnblobprod5u3.azureedge.net%2Fcmsassets%2FyoutubeBanner-Hero.webp&w=1920&q=75https://oshiprint.in/image/cache/catalog/poster/new/mqp1380-320x320h.jpeg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed; 
+    /* parallax effect */
+}
