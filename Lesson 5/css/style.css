@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    flex-container
+
+    flex-wrap
+    align-items
+    flex-direction
+    justify-content
+
+
+    flex-item
+    order
+    flex-basis
+    flex-grow
+    flex-shrink
+    flex
+
+*/
+
+/* .cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 2px solid red;
+    max-width: 1000px;
+    margin: 20px;
+    justify-content: end; 
+    justify-content: space-between; 
+    justify-content: space-around; 
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: end;
+   align-items: center;
+    justify-content: ;
+
+} */
+
+/* .card {
+    background-color: cadetblue;
+    border: 2px solid #212121;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    width: 234px;
+} */
+
+
+.boxes {
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    border: 1px solid blue;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0; */
+    flex: 1 1 0;
+    height: 100px;
+    background-color: red;
+}
+
+/* 3-1-2-4*/
+/* #box1 {flex-shrink: 2;}
+#box2 {flex-shrink: 5;}
+
+#box3 {}
+#box4 {} */
+#box1 {
+    /* align-self: flex-start; */
+}
+
+#box4 {
+    /* align-self: flex-end; */
+}
+
+
+
+/* .flag {
+    width: 700px;
+    height: 500px;
+    margin: 30px auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+} */
