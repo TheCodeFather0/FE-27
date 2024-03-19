@@ -1,0 +1,66 @@
+@font-face {
+    font-family: menimYeniSriftim;
+    src: url('../fonst/Madimi/MadimiOne-Regular.ttf');
+}
+@font-face {
+    font-family:poppinsBlackItalic;
+    src: url('../fonst/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family:LightItalic;
+    src: url('../fonst/Poppins/Poppins-LightItalic.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header,
+.footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 30px;
+    /* font-family: "Madimi One", sans-serif; */
+    font-family: menimYeniSriftim;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    /* font-weight: lighter; */
+}
+/*
+    poppins
+
+*/
+/* font safe */
+ 
+
+.navigation {
+    background-color: #212121;
+}
+
+.navigation > a {
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    padding: 20px;
+    text-align: justify;
+}
+
+.card h2 {
+    font-family: poppinsBlackItalic;
+}
+
+.card p {
+    font-family: LightItalic;
+}

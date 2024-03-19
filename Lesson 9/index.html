@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- 
+        html form 
+
+        value
+        method -> get
+        length
+
+      input types
+
+      text
+      number
+      email
+      password
+      radio
+      checkbox
+    -->
+
+
+     <div class="box">salam dunya</div>
+
+    <fieldset>
+      <legend>qeydyyyat formu</legend>
+      <form method="get">
+        <div>
+          <label for="adINput">
+            adinizi qeyd edin
+            <input
+              type="text"
+              name="ad"
+              minlength="3"
+              maxlength="10"
+              required
+              id="adINput"
+            />
+          </label>
+        </div>
+
+        <br /><input
+          type="text"
+          placeholder="soyadinizi qeyd edin"
+          name="soyad"
+          required
+          disabled
+          size="30"
+        />
+
+        <br />
+        <input
+          type="number"
+          placeholder="yasinizi qeyd edin"
+          name="yas"
+          min="18"
+          max="118"
+          required
+          disabled
+        />
+
+        <br />
+        <input
+          type="email"
+          placeholder="email"
+          name="elektronpoct"
+          required
+          readonly
+          value="mene yaza bilmezsen ha ha ha..."
+          size="30"
+        />
+
+        <br /><input type="password" name="password" placeholder="password" />
+
+        <p>Sevdiyiniz yemek hansidir?</p>
+        plov <input type="radio" name="yemek" /> kebab
+        <input type="radio" name="yemek" /> dovga
+        <input type="radio" name="yemek" />
+
+        <p>masininiz hansi modeldir?</p>
+        <label for="mercedess">
+          mercedess
+          <input type="checkbox" name="car" id="mercedess" />
+        </label>
+        <label for="bmw">
+          bmw
+          <input type="checkbox" name="car" id="bmw" />
+        </label>
+        <label for="vaz">
+          vaz
+          <input type="checkbox" name="car" id="vaz" />
+        </label>
+        <br /><input type="color" /> <br /><input type="date" /> <br /><input
+          type="time"
+        />
+        <br /><input type="week" />
+        <br />
+        <textarea></textarea>
+        <br />
+
+        <select multiple>
+          <optgroup label="yaxin seherler">
+            <option>Baki</option>
+            <option>Samaxi</option>
+            <option>Seki</option>
+          </optgroup>
+
+          <optgroup label="uzaq seherler">
+            <option>Naxcivan</option>
+          </optgroup>
+        </select>
+        <br />
+
+        <input type="file" accept="" />
+
+        <input type="text" alt="" />
+
+        <input type="submit" value="gonder" />
+        <input type="reset" value="sifirla" />
+        <button type="submit">gonder</button>
+      </form>
+    </fieldset> 
+
+
+    <div class="veryGozelInput">
+      <input type="text">
+      <div class="content"></div>
+    </div>
+    
+  </body>
+</html>

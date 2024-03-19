@@ -1,0 +1,157 @@
+:root {
+    --saytinEsasRengi:red;
+}
+
+/* * {} universal selector */
+
+/* p {
+    color: green;
+} */
+
+
+/* .rengiQirmizi {
+    color: red;
+}
+
+.rengiYasil {
+    color: green;
+} */
+
+/* C# sharp
+#firstPTag {
+    background-color: brown;
+} */
+
+
+/* .description1,
+.description2 {
+    text-decoration: underline;
+    color: green;
+} */
+
+
+/* .parentDiv{ 
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 20px;
+} */
+
+/* .parentDiv > p {
+    color: red;
+} */
+
+/* .parentDiv > p {
+    color: red;
+}
+
+
+.parentDiv + p {
+    color: green;
+} */
+
+/* #basliq {
+    color: blue;
+}
+
+h1.title {
+    color: red;
+}
+
+.title {
+    color: green;
+} */
+
+/*
+    Cascading Order
+    
+    tagName -> 001
+    class   -> 010
+    id      -> 100
+*/
+/* 
+#basliq {
+    color: red !important;
+} 
+
+.content > h1#basliq {
+    color: green;
+}  */
+
+
+
+/* .content > h1#basliq {
+    color: red;
+}
+
+
+.content > h1#basliq {
+    color: green;
+} */
+
+
+
+
+/* .box {
+    width: 50%;
+    height: 200px;
+    background-color: cadetblue;
+} */
+
+.box {
+    /* 16px */
+    font-size: 20px;
+}
+/* .box div { */
+    /* font-size: 10px; */
+    /* width: 5ch;  */
+    /* background-color: red; */
+/* } */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+    vw -> viewport width
+    vh -> viewport height
+*/
+.box {
+    background-color: red;
+    height: 50vh;
+    width: 50vw;
+}
+/* 
+    em
+    rem
+    vw
+    vh
+*/
+
+h1 {
+    color: var(--saytinEsasRengi);
+}
+
+
+p {
+    color: var(--saytinEsasRengi);
+}
+
+span {
+    color: black;
+    text-decoration: underline;
+}
+
+h1 span {
+    color: green;
+    font-size: 70px;
+    text-decoration: none;
+}
+
+
+.a {
+    color: red;
+}
+
+

@@ -1,0 +1,68 @@
+input {
+    /* display: block; */
+    margin: 10px;
+    outline: none;
+    accent-color: red;
+    /* width: 300px; */
+}
+
+input:focus{
+    /* outline: 3px solid red; */
+}
+
+textarea {
+    resize: both;
+}
+
+/*
+    hide element
+
+
+*/
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    /* display: none; */
+    transform: scale(0);
+    /* visibility: hidden; */
+    /* opacity: 0; */
+    background-color: red;
+}
+
+
+.veryGozelInput {
+    width: fit-content;
+    margin: 30px auto;
+    position: relative;
+}
+.veryGozelInput > input{
+    border: 1px solid blue;
+    caret-color: blue;
+    padding: 5px;
+    color: blue;
+    margin: 0;
+    position: relative;
+}
+
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+.content::after {
+    content:  'Jhon Doe';
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.veryGozelInput > input:focus + .content::after{
+    padding: 5px;
+    top: -10px;
+    font-size: 10px;
+    left: 35%;
+    background-color: white;
+}
