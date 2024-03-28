@@ -1,0 +1,119 @@
+table,
+td,th {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+header {
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.box {
+	width:200px;
+	height:200px;
+	/*background: linear-gradient(to right,red,blue,green,yellow);*/
+	/*background: linear-gradient(45deg,#556270,#FF6B6B)*/
+	/*background: radial-gradient(red,blue,green)*/
+	margin:200px auto;
+	background: green;
+	box-shadow: 0px 0px 20px red;
+	transition: 0.4s;
+}
+
+.box:hover{ 
+	transform: /*scale(0.5)*/ /*rotate(360deg)*/ /*skew(30deg,20deg)*/ translate(10%,50%);
+	/*background: linear-gradient(to right,yellow,purple);*/
+	box-shadow: 0px 0px 20px blue;
+}
+
+.box > h2 {
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.5s;
+}
+
+.box:hover > h2 {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+
+/*
+	linear-gradient
+	radial-gradient
+*/
+
+section {
+	
+	background: 
+			linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+			url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.1.34264412.1711411200&semt=sph)
+	;
+	padding:20px;
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*color:transparent;*/
+	text-shadow: 1px 1px 2px blue;
+}
+
+
+
+button {
+	margin: 50px;
+}
+
+.neon1 {
+	background: white;
+	border:2px solid #FF14BD;
+	border-radius: 8px;
+	padding: 7px 15px;
+	color: #FF14BD;
+	text-shadow: 0 0 10px #FF14BD;
+	box-shadow: 0 0 10px #FF14BD;
+}
+
+.neon2 {
+	background: #FF14BD;
+	border:2px solid #FF14BD;
+	border-radius: 8px;
+	padding: 7px 15px;
+	text-shadow: 0 0 10px black;
+	box-shadow: 0 0 20px #FF14BD;
+}
+
+
+.user {
+	border: 2px solid red;
+	width: 300px;
+	height: 400px;
+	margin: 50px auto;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://media.licdn.com/dms/image/C4D03AQGFbw2qhnvWzA/profile-displayphoto-shrink_800_800/0/1627680668150?e=2147483647&v=beta&t=yLA1wZPvYEhkV0v6llpCXsi9D9dOkp59ij4IgEIitlE);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 0.5s;
+}
+
+.userInfo {
+	border: 2px solid red;
+	width: 300px;
+	height: 400px;
+	margin: 50px auto;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: black;
+	color: white;
+	z-index: -1;
+	transition: 0.5s
+}
+
+.user:hover + .userInfo {
+		transform: translateX(50%);
+	}
