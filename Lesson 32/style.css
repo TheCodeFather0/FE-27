@@ -1,0 +1,22 @@
+.slider {
+    max-width: 1200px;
+    margin: auto;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.5s;
+}
+
+.buttons {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    font-size: 40px;
+    margin: 10px;
+    padding: 0 20px;
+}

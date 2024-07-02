@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .light {
+        color: #212121;
+        background-color: #fff;
+      }
+      .dark {
+        color: #fff;
+        background-color: #212121;
+      }
+
+      .list-item {
+        background-color: black;
+        color: lime;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        margin: 10px;
+      }
+    </style>
+
+
+  </head>
+  <body class="light">
+    <button id="modeButton">🌜</button>
+    <!-- <div class="qirmizi" id="title" title="salam olsun">div 1</div>
+    <div class="test">div 2</div> -->
+
+    <h1>title</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi
+      inventore cupiditate a velit ea, illo quis odit alias commodi, dignissimos
+      itaque tenetur non numquam ab molestias placeat error soluta.
+    </p>
+
+    <input type="text" id="newTodoInp" placeholder="new todo" />
+    <button id="addTodoBtn">add todo</button>
+    <button id="delAllTodos">delete all todos</button>
+
+    <ul id="list">
+      <li class="list-item">
+        ders oxu <button class="delete-button">🗑️</button>
+      </li>
+      <li class="list-item">
+        ders oxu <button class="delete-button">🗑️</button>
+      </li>
+    </ul>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

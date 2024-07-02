@@ -1,0 +1,49 @@
+
+* {
+  box-sizing: border-box;
+}
+/* 
+.qutu {
+    border: 2px solid;
+    width: 200px;
+    height: 200px;
+    margin:30px auto;
+    padding: 10px;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    width:50%;
+    background-color: red;
+} */
+@import url(./responsive.css);
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 100px);
+  gap: 10px;
+}
+.box {
+  padding: 10px;
+  border: 2px solid;
+}
+
+
+
+/* 
+    breakpoint
+    768px -> 2
+    992px -> 3
+    1920px -> 4
+ */
+
+
+
+

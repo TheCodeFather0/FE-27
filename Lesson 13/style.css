@@ -1,0 +1,250 @@
+.boxes {
+  width: 1000px;
+  border: 2px solid;
+  margin: 20px auto;
+}
+
+.box {
+  padding: 10px;
+  width: 10%;
+  color: white;
+  background-color: cadetblue;
+  margin: 10px;
+  box-sizing: border-box;
+  /* transition-duration: 3s; */
+  /* transition-delay: 3s; */
+  /* transition-property: all; */
+  transition: all 3s;
+}
+
+.boxes:hover > .box {
+  width: calc(100% - 20px);
+  color: red;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+.easy {
+  transition-timing-function: ease;
+}
+.easy-in {
+  transition-timing-function: ease-in;
+}
+.easy-out {
+  transition-timing-function: ease-out;
+}
+.easy-in-out {
+  transition-timing-function: ease-in-out;
+}
+.step-end {
+  transition-timing-function: step-end;
+}
+.step-start {
+  transition-timing-function: step-start;
+}
+.steps {
+  transition-timing-function: steps(5);
+  transition-timing-function: steps(5);
+}
+.cubic-beizer {
+  transition-timing-function: cubic-bezier(1, -0.4, 1, 0.02);
+}
+
+/* .box {
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    border: 2px solid;
+    animation-name: boxAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+} */
+
+/* @keyframes boxAnimation {
+    0%,100% {
+        background-color: red;
+        border-radius: 0;
+        transform: scale(1);
+    }
+    25% {
+        position: absolute;
+        left: 0;
+    }
+    50% {
+        background-color: blue;
+        border-radius: 50%;
+        transform: scale(1.5);
+    }
+} */
+
+/* .heart {
+    width: 200px;
+    margin: 100px auto;
+    display: block;
+
+    animation: heart 2s infinite; */
+/* animation-name: heart; */
+/* animation-duration: 2s; */
+/* animation-iteration-count: infinite; */
+
+/* animation-fill-mode: ; */
+/* }
+
+
+@keyframes heart {
+    0%,100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.grass {
+  width: 100%;
+  height: 300px;
+  background-image: url(https://t4.ftcdn.net/jpg/05/31/83/21/360_F_531832113_NvsgAJ0X7z4fpljSLteLHN0K9bN8hcGP.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 70%;
+  left: 0;
+}
+
+.drops img {
+  width: 15px;
+}
+
+.drop {
+  animation: rain 10s infinite;
+}
+
+.drops .drop:nth-child(n) {
+  animation-delay: 2s;
+}
+
+.drops .drop:nth-child(2n) {
+  animation-delay: 0.2s;
+}
+
+.drops .drop:nth-child(3n) {
+  animation-delay: 1s;
+}
+
+.drops .drop:nth-child(4n) {
+  animation-delay: 1.2s;
+}
+
+.drops .drop:nth-child(8n) {
+  animation-delay: 1s;
+}
+
+.drops .drop:nth-child(7n) {
+  animation-delay: 1.2s;
+}
+
+@keyframes rain {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(830px);
+  }
+}
+
+.drop:nth-child(odd) {
+  animation-delay: 0.5s;
+}
+
+.drop:first-child {
+  left: 50%;
+}
+.drop:nth-child(2) {
+  left: 10%;
+}
+.drop:nth-child(3) {
+  left: 15%;
+}
+.drop:nth-child(4) {
+  left: 60%;
+}
+.drop:nth-child(5) {
+  left: 33%;
+}
+.drop:nth-child(6) {
+  left: 44%;
+}
+.drop:nth-child(7) {
+  left: 53%;
+}
+.drop:nth-child(8) {
+  left: 70%;
+}
+.drop:nth-child(9) {
+  left: 88%;
+}
+
+.drop:nth-child(10) {
+  left: 23%;
+}
+.drop:nth-child(11) {
+  left: 73%;
+}
+.drop:nth-child(12) {
+  left: 79%;
+}
+
+.drop:nth-child(13) {
+  left: 37%;
+}
+
+.drop:nth-child(14) {
+  left: 40%;
+}
+
+.drop:last-child {
+  left: 95%;
+}
+
+.grass img:nth-child(1) {
+  width: 300px;
+  position: absolute;
+  top: 20%;
+  animation: qoyunYeriyir 10s infinite;
+  z-index: 2;
+}
+
+.grass img:nth-child(2) {
+  width: 300px;
+  position: absolute;
+  top: -20%;
+  transform: rotateY(180deg);
+  animation: qoyunTersineYeriyir 10s;
+  z-index: 2;
+}
+
+@keyframes qoyunYeriyir {
+  from {
+    left: 0;
+  }
+  to {
+    left: 80%;
+  }
+}
+
+@keyframes qoyunTersineYeriyir {
+  from {
+    right: 0;
+  }
+  to {
+    right: 80%;
+  }
+}

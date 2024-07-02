@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 30px auto;
+  background-color: green;
+}
+
+.containedBtn {
+  padding: 10px 20px;
+  border: 1px solid purple;
+  box-shadow: 0 0 10px purple;
+  border-radius: 4px;
+  color: white;
+  background-color: purple;
+}
+
+.outlinedBtn {
+  padding: 10px 20px;
+  border: 1px solid purple;
+  box-shadow: 0 0 10px purple;
+  border-radius: 4px;
+  color: black;
+  background-color: white;
+}
+
+.headerLink, footer .footerLink {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  background-color: red;
+  margin-top: 20px;
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */
