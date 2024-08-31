@@ -1,17 +1,16 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-const Home = () => {
+const Menu = () => {
   return (
     <div>
       <Helmet>
+        <title>Menu</title>
         <link rel="icon" type="image/x-icon" href="./logo.png" />
-        <title>Ana sehife</title>
       </Helmet>
-
-      <h2>home page</h2>
+      <h2>Menu</h2>
     </div>
   );
 };
 
-export default Home;
+export default Menu;

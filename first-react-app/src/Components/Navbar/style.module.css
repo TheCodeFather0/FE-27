@@ -1,0 +1,101 @@
+.navbarLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    color: #311f09;
+  }
+}
+
+.link {
+  display: inline-block;
+  margin-inline: 15px;
+}
+
+.loginBtn {
+  margin-left: 15px;
+}
+
+.active {
+  color: #ff8a00 !important;
+}
+
+.basketIcon {
+  background-color: #fbfafa;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+
+.loginBtnAndBasket {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.loginBtn {
+  background-color: #3fa72f;
+  border-radius: 20px;
+  padding: 7px 25px;
+  border: 1px solid #3fa72f;
+  color: #fff !important;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  &:hover {
+    background-color: white;
+    color: #3fa72f !important;
+  }
+}
+
+.mobileBars {
+  display: none;
+}
+
+.hideMobileMenu {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .mobileBars {
+    display: block;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+
+  .links {
+    position: absolute;
+    right: -100%;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fbfafa;
+    min-width: 300px;
+    padding: 40px;
+    transition: all 0.5s;
+    .link {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .hideMobileMenu {
+      display: block;
+      width: fit-content;
+      position: absolute;
+      right: 40px;
+      top: 10px;
+      border: none;
+      background-color: transparent;
+      color: red;
+      font-size: 25px;
+    }
+  }
+
+  .showMobile {
+    right: 0;
+  }
+}

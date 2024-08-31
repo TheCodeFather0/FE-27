@@ -1,17 +1,12 @@
-import "./app.css";
 import React from "react";
-import WebRoutes from "./routes";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
+import WebRoutes from "./Routes";
+import Navbar from "./Components/Navbar";
 
 const App = () => {
   return (
     <>
-      <Header />
-      <div className="main">
-        <WebRoutes />
-      </div>
-      <Footer />
+      <Navbar />
+      <WebRoutes />
     </>
   );
 };
